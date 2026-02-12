@@ -8,7 +8,6 @@ function CardListings({ search, sortOption  }) {
     building.name.toLowerCase().includes(search.toLowerCase())
   );
 
-   // Apply sorting
   if (sortOption === "az") {
     filteredBuildings.sort((a, b) => a.name.localeCompare(b.name))
   }
