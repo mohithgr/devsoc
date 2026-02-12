@@ -1,0 +1,7 @@
+How to run the project
+
+Step1: cd frontend
+
+Step2: npm i
+
+Step3: npm run dev
